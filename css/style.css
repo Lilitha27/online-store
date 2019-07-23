@@ -1,6 +1,7 @@
 :root {
     --main-bg-color:black;
      --main-padding: 15px;  
+     color: #999999;
   }
 
 
@@ -21,5 +22,57 @@
         width: 1900px;
         height: 53px;
         background-color: var(--main-bg-color);
-      
+        display:flex;
 }
+
+.lang{
+    width: 13px;
+    height: 9px;
+    font-family: SourceSansPro;
+    font-size: 12px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #999999;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  #contact{
+    width: 111px;
+    height: 15px;
+    font-family: FontAwesome;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #999999;
+  }
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
