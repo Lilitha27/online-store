@@ -56,12 +56,13 @@
     color: #999999;
   }
   /* Create three equal columns that floats next to each other */
-  .column {
+  .column{
     float: left;
     width: 33.33%;
     padding: 10px;
     height: 300px; /* Should be removed. Only for demonstration */
   }
+ 
   
   /* Clear floats after the columns */
   .row:after {
@@ -76,3 +77,10 @@
       width: 100%;
     }
   }
+.fa {
+  font-size:24px;
+}
+ 
+.main {
+  background-image: url("images/backgroung.jpg")
+}
