@@ -1,11 +1,23 @@
 :root {
-    --main-bg-color:black;
-     --main-padding: 15px;  
-     color: #999999;
-
+  --black: #2d2827;
+  --white-two: #d7d7d7;
+  --white-three: #eeeeee;
+  --greyish-brown: #555555;
+  --mushroom: #ac907f;
+  --pinkish-grey: #cccccc;
+  --greyish: #a8a8a8;
+  --white-four: #e5e5e5;
+  --black-two: #000000;
+  --black-three: #333333;
+  --white-five: #ffffff;
+  --white: #f5f5f5;
   }
 
-
+body{
+  width: 100%;
+  height: 100%;
+  font-family: 'Dosis', sans-serif;
+}
 .pre-header{width: 349px;
   height: 9px;
   font-family: 'SourceSansPro';
@@ -21,7 +33,7 @@
  .pre-header{
         width: 100%;
         height: 53px;
-        background-color: var(--main-bg-color);
+        background-color:var(--black);
      
 }
 
@@ -52,7 +64,7 @@
     font-stretch: normal;
     line-height: normal;
     letter-spacing: normal;
-    text-align: center;
+    text-align:right;
     color: #999999;
   }
   /* Create three equal columns that floats next to each other */
@@ -97,7 +109,7 @@
 .navigation {
   width: 40px;
   height: 12px;
-  font-family: Dosis;
+  font-family: 'Dosis';
   font-size: 16px;
   font-weight: 600;
   font-style: normal;
@@ -119,7 +131,7 @@
 .home {
   width: 36px;
   height: 11px;
-  font-family: Dosis;
+  font-family: 'Dosis';
   font-size: 15px;
   font-weight: normal;
   font-style: normal;
@@ -133,7 +145,7 @@
 .shop {
   width: 34px;
   height: 11px;
-  font-family: Dosis;
+  font-family: 'Dosis';
   font-size: 15px;
   font-weight: normal;
   font-style: normal;
@@ -144,14 +156,26 @@
   color: var(--white-five);
 }
 
-
+.logo{
+  width: 117px;
+  height: 21px;
+  font-family: 'Dosis';
+  font-size: 30px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1.5px;
+  text-align: left;
+  color: #fffefe;
+}
 
 
 
 .lookbook{
   width: 77px;
   height: 11px;
-  font-family: Dosis;
+  font-family: 'Dosis';
   font-size: 15px;
   font-weight: normal;
   font-style: normal;
@@ -165,7 +189,7 @@
 #description {
   width: 597px;
   height: 38px;
-  font-family: Dosis;
+  font-family: 'Dosis';
   font-size: 50px;
   font-weight: normal;
   font-style: normal;
@@ -180,7 +204,7 @@
 .intro {
   width: 924px;
   height: 39px;
-  font-family: SourceSansPro;
+  font-family: 'Dosis';
   font-size: 20px;
   font-weight: normal;
   font-style: normal;
@@ -201,13 +225,14 @@
   margin-top: 30%;
 }
 #title {
-  margin-left:40%;
+  margin-left:90%;
+  display:inline;
 }
 
 #advert {
   width: 313px;
   height: 24px;
-  font-family: SourceSansPro;
+  font-family: 'Dosis';
   font-size: 36px;
   font-weight: normal;
   font-style: normal;
@@ -215,7 +240,7 @@
   line-height: 1.33;
   letter-spacing: normal;
   text-align: center;
-  margin-left: 30%;
+  margin-left: 40%;
   display: inline;
   color: var(--black-three);
 }
@@ -245,7 +270,7 @@
 #describe {
   width: 158px;
   height: 18px;
-  font-family: SourceSansPro;
+  font-family: 'Dosis';
   font-size: 20px;
   font-weight: 600;
   font-style: normal;
@@ -259,7 +284,7 @@
 #price {
   width: 52px;
   height: 11px;
-  font-family: SourceSansPro;
+  font-family: 'Dosis';
   font-size: 15px;
   font-weight: 600;
   font-style: normal;
@@ -282,7 +307,7 @@
 #ad {
   width: 313px;
   height: 24px;
-  font-family: SourceSansPro;
+  font-family: 'Dosis';
   font-size: 36px;
   font-weight: normal;
   font-style: normal;
@@ -311,7 +336,7 @@
 #gender {
   width: 49px;
   height: 16px;
-  font-family: SourceSansPro;
+  font-family:'Dosis';
   font-size: 25px;
   font-weight: normal;
   font-style: normal;
@@ -321,8 +346,69 @@
   text-align: center;
   color: #a88d7b;
 }
+#name {
+  width: 117px;
+  height: 21px;
+  font-family: 'Dosis';
+  font-size: 30px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1.5px;
+  text-align: left;
+  margin-top:20%;
+  color: var(--white-four);
+}
+ 
+#links{
+  width: 46px;
+  height: 12px;
+  font-family: 'Dosis';
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  margin-top:22%;
+  color: var(--white-four);
+}
+#store {
+  width: 46px;
+  height: 12px;
+  font-family: 'Dosis';
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  margin-top:22%;
+  color: var(--white-four);
+}
+#media{
+  width: 46px;
+  height: 12px;
+  font-family:'Dosis';
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: var(--white-four);
+}
 
+#line{
+  width: 50px;
+  height: 2px;
+  background-color: #a88d7b;
 
+}
 
 
 
