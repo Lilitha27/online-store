@@ -144,60 +144,9 @@
   color: var(--white-five);
 }
 
-.about {
-  width: 44px;
-  height: 11px;
-  font-family: Dosis;
-  font-size: 15px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: 0.75px;
-  text-align: left;
-  color: var(--white-five);
-}
-.logo{
-  width: 117px;
-  height: 21px;
-  font-family: Dosis;
-  font-size: 30px;
-  font-weight: 600;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: 1.5px;
-  text-align: left;
-  color:var(--white-five);
-}
 
-.blog {
-  width: 32px;
-  height: 11px;
-  font-family: Dosis;
-  font-size: 15px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: 0.75px;
-  text-align: left;
-  color: var(--white-five);
-}
 
-.contact{
-  width: 66px;
-  height: 11px;
-  font-family: Dosis;
-  font-size: 15px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: 0.75px;
-  text-align: left;
-  color: var(--white-five);
-}
+
 
 .lookbook{
   width: 77px;
@@ -225,7 +174,7 @@
   letter-spacing: normal;
   text-align: center;
   color: var(--white-five);
-  
+  background-image: url("images/background.jpg")
 }
 
 .intro {
@@ -331,7 +280,7 @@
 
 
 #ad {
-  width: 265px;
+  width: 313px;
   height: 24px;
   font-family: SourceSansPro;
   font-size: 36px;
@@ -341,9 +290,37 @@
   line-height: 1.33;
   letter-spacing: normal;
   text-align: center;
+  margin-left: 30%;
+  margin-right:53%;
+  display: inline;
   color: var(--black-three);
 }
 
+#turtle {
+  width: 460px;
+  height: 450px;
+  background-color: #666666;
+
+}
+#top {
+  width: 460px;
+  height: 450px;
+  background-color: #666666;
+
+}
+#gender {
+  width: 49px;
+  height: 16px;
+  font-family: SourceSansPro;
+  font-size: 25px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.92;
+  letter-spacing: 2.5px;
+  text-align: center;
+  color: #a88d7b;
+}
 
 
 
