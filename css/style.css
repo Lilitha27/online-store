@@ -14,7 +14,7 @@
   }
 
 body{
-  width: 1200px;
+  width: 1300px;
   height: 4500px;
   font-family: 'Dosis', sans-serif;
 }
@@ -37,10 +37,10 @@ body{
      
 }
 
-.lang{
+#lang{
     width: 13px;
     height: 9px;
-    font-family: SourceSansPro;
+    font-family: 'SourceSansPro';
     font-size: 12px;
     font-weight: 300;
     font-style: normal;
@@ -48,6 +48,7 @@ body{
     line-height: normal;
     letter-spacing: normal;
     text-align: center;
+    background-color: #2d2827;
     color: #999999;
   }
 
@@ -102,7 +103,7 @@ body{
 
 
 .BG {
-  width: 1900px;
+  width: 1300px;
   height: 93px;
   background-color: whitesmoke;
 }
@@ -124,7 +125,7 @@ body{
 }
 
 .top{
-  width: 1900px;
+  width: 1300px;
   height: 53px;
   background-color: var(--white-three);
 }
@@ -230,7 +231,7 @@ body{
   height: 40px;
   border-radius: 20px;
   background-color: #a88d7b;
-  margin-left:85%;
+  margin-left:90%;
   margin-top: 15%;
 }
 #title {
@@ -256,7 +257,7 @@ body{
 }
 
 .holder {
-  width: 1200px;
+  width: 1300px;
   height: 640px;
   background-color: var(--black-three);
 }
