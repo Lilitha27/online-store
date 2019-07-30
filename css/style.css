@@ -230,9 +230,10 @@ body{
   border-radius: 20px;
   background-color: #a88d7b;
   margin-left:85%;
-  margin-top: 30%;
+  margin-top: 15%;
 }
 #title {
+  margin-top:10%;
   margin-left:90%;
   display:inline;
 }
@@ -255,7 +256,7 @@ body{
 
 .holder {
   width: 1900px;
-  height: 945px;
+  height: 640px;
   background-color: var(--black-three);
 }
 
@@ -323,7 +324,7 @@ body{
   line-height: 1.33;
   letter-spacing: normal;
   text-align: center;
-  margin-left: 30%;
+  margin-left: 15%;
   margin-right:53%;
   display: inline;
   color: var(--black-three);
@@ -414,7 +415,7 @@ body{
 #line{
   width: 50px;
   height: 2px;
-  background-color: #a88d7b;
+  background-color: #ac907f;
  
 }
 .bottom {
