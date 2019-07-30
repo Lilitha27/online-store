@@ -11,6 +11,7 @@
     --black-three: #333333;
     --white-five: #ffffff;
     --white: #f5f5f5;
+    --brown-grey:
     }
 body{
   width: 1300px;
@@ -26,19 +27,22 @@ body{
 a{
     color: black;
 }
-.lang{
-    width: 13px;
-    height: 9px;
-    font-family: 'SourceSansPro';
-    font-size: 12px;
-    font-weight: 300;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: center;
-    color: #999999;
-  }
+
+#lang{
+  width: 13px;
+  height: 9px;
+  font-family: 'SourceSansPro';
+  font-size: 12px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  background-color: #2d2827;
+  color: #999999;
+}
+ 
 
   * {
     box-sizing: border-box;
@@ -183,4 +187,99 @@ a{
   text-align: center;
   margin-left:50%;
   color: var(--white-five);
+}
+#select {
+  width: 88px;
+  height: 11px;
+  font-family: 'SourceSansPro';
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.4;
+  letter-spacing: normal;
+  text-align: right;
+  margin-left:90%;
+  color: #666666;
+
+}
+
+#name{
+  width: 100px;
+  height: 23px;
+  font-family: 'SourceSansPro';
+  font-size: 25px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.92;
+  letter-spacing: normal;
+  text-align: left;
+  color: var(--black-three);
+
+}
+
+#price {
+  width: 64px;
+  height: 12px;
+  font-family: 'SourceSansPro';
+  font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.67;
+  letter-spacing: normal;
+  text-align: left;
+  color: #999999;
+
+}
+#description{
+  width: 805px;
+  height: 64px;
+  font-family: 'SourceSansPro';
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: left;
+  margin-right:60%;
+  color: #666666;
+
+}
+#items{
+  width: 1300px;
+  height: 1600px;
+  background-color: var(--white);
+
+}
+
+.jacket {
+ margin-top:5%;
+}
+.boots{
+  margin-top:5%;
+}
+.sweater{
+  margin-top:5%;
+  
+}
+
+.pagination {
+  display: inline-block;
+  margin-top:7%;
+  margin-left:80%;
+  text-align:right;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+
+}
+.hide{
+  display:none;
 }

@@ -15,8 +15,9 @@
 
 body{
   width: 1300px;
-  height: 4500px;
+  height: 1200px;
   font-family: 'Dosis', sans-serif;
+  font-family:'Source Sans Pro',sans-serif;
 }
 .pre-header{width: 349px;
   height: 9px;
@@ -308,7 +309,7 @@ body{
 
 .new {
   width: 1900px;
-  height: 705px;
+  height: 600px;
   background-color: var(--white-five);
   margin-top:20%;
   text-align: center;
@@ -444,4 +445,56 @@ body{
 a{
   color: #666666;
 }
+.jacket{
+  width: 1300px;
+  height: 552px;
+  opacity: 0.9;
+  background-color: #282828;
+  margin-top:0%;
+
+}
+
+ #denim {
+  width: 1300px;
+  height: 37px;
+  font-family: 'Dosis';
+  font-size: 48px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.5;
+  letter-spacing: normal;
+  text-align: center;
+  padding-top: 170px;
+  color: var(--white-five);
+}
  
+#den{
+  width: 656px;
+  height: 38px;
+  font-family: 'SourceSansPro';
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.6;
+  letter-spacing: normal;
+  text-align: center;
+  margin-left:30%;
+  color: var(--white-five);
+
+}
+#denimjacket{
+  width:300px;
+   height:300px;
+   margin-left:50%;
+}
+#more {display: none;}
+
+#myBtn{
+  width: 150px;
+  height: 40px;
+  background-color: #a88d7b;
+  margin-left:50%;
+  margin-top:5%;
+}
