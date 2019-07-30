@@ -13,8 +13,8 @@
     --white: #f5f5f5;
     }
 body{
-    width: 100%;
-    height: 100%;
+  width: 1300px;
+  height: 445px;
 }
 
 .pre-header {
@@ -29,7 +29,7 @@ a{
 .lang{
     width: 13px;
     height: 9px;
-    font-family: SourceSansPro;
+    font-family: 'SourceSansPro';
     font-size: 12px;
     font-weight: 300;
     font-style: normal;
@@ -44,7 +44,7 @@ a{
     box-sizing: border-box;
   }
   #contact{
-    width: 111px;
+    width: 300px;
     height: 15px;
     font-family: FontAwesome;
     font-size: 15px;
@@ -97,7 +97,77 @@ a{
   line-height: normal;
   letter-spacing: 1.5px;
   text-align: left;
-  padding-right:10;
+  padding-right:10%;
+  margin-left:2%;
   text-decoration-line: none;
   color:black;
+}
+
+.home {
+  width: 36px;
+  height: 11px;
+  font-family: 'Dosis';
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.75px;
+  text-align: left;
+  padding-right:5%;
+  text-decoration-line: none;
+  color: black;
+}
+.shop {
+  width: 34px;
+  height: 11px;
+  font-family: 'Dosis';
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.75px;
+  text-align: left;
+  padding-right:5%;
+  text-decoration-line: none;
+  color: black;
+}
+
+.lookbook{
+  width: 77px;
+  height: 11px;
+  font-family: 'Dosis';
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.75px;
+  text-align: left;
+  padding-right:5%;
+  text-decoration-line: none;
+  color: black;
+}
+
+.title {
+  width: 1300px;
+  height: 445px;
+  background-color: var(--black-three);
+
+}
+
+#shop{
+  width: 132px;
+  height: 35px;
+  font-family: 'SourceSansPro';
+  font-size: 50px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  letter-spacing: 5px;
+  text-align: center;
+  margin-left:50%;
+  color: var(--white-five);
 }

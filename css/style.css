@@ -14,8 +14,8 @@
   }
 
 body{
-  width: 100%;
-  height: 100%;
+  width: 1200px;
+  height: 4500px;
   font-family: 'Dosis', sans-serif;
 }
 .pre-header{width: 349px;
@@ -31,7 +31,7 @@ body{
   color: #999999;
 }
  .pre-header{
-        width: 100%;
+        width: 100%;;
         height: 53px;
         background-color:var(--black);
      
@@ -55,7 +55,7 @@ body{
     box-sizing: border-box;
   }
   #contact{
-    width: 111px;
+    width: 300px;
     height: 15px;
     font-family: FontAwesome;
     font-size: 15px;
@@ -65,6 +65,7 @@ body{
     line-height: normal;
     letter-spacing: normal;
     text-align:right;
+    margin-left:2%;
     color: #999999;
   }
   /* Create three equal columns that floats next to each other */
@@ -255,7 +256,7 @@ body{
 }
 
 .holder {
-  width: 1900px;
+  width: 1200px;
   height: 640px;
   background-color: var(--black-three);
 }
