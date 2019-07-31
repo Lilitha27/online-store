@@ -157,6 +157,7 @@ a{
 .title {
   width: 1300px;
   height: 445px;
+  margin-top:
   background-color: var(--black-three);
 
 }
@@ -234,7 +235,7 @@ a{
 
 }
 #description{
-  width: 805px;
+  width: 270px;
   height: 64px;
   font-family: 'SourceSansPro';
   font-size: 15px;

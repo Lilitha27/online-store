@@ -75,13 +75,13 @@ body{
     float: left;
     width: 33.33%;
     padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
+    height: 450px; /* Should be removed. Only for demonstration */
   }
  
   
   /* Clear floats after the columns */
   .row:after {
-    content: "";
+    content: ""; 
     display: table;
     clear: both;
   }
@@ -225,6 +225,7 @@ body{
   text-align: center;
   color: #e6e6e6;
   margin-left:20%;
+  margin-top:5%;
 
 }
 #button {
@@ -236,7 +237,7 @@ body{
   margin-top: 15%;
 }
 #title {
-  margin-top:10%;
+  margin-top:0%;
   margin-left:90%;
   display:inline;
 }
@@ -252,6 +253,7 @@ body{
   line-height: 1.33;
   letter-spacing: normal;
   text-align: center;
+  padding-top:20%;
   margin-left: 40%;
   display: inline;
   color: var(--black-three);
@@ -259,8 +261,9 @@ body{
 
 .holder {
   width: 1300px;
-  height: 640px;
+  height: 800px;
   background-color: var(--black-three);
+
 }
 
 #boots {
@@ -311,7 +314,7 @@ body{
   width: 1900px;
   height: 600px;
   background-color: var(--white-five);
-  margin-top:20%;
+  margin-top:0%;
   text-align: center;
 }
 
@@ -329,6 +332,7 @@ body{
   text-align: center;
   margin-left: 15%;
   margin-right:53%;
+ 
   display: inline;
   color: var(--black-three);
 }
@@ -372,7 +376,12 @@ body{
   margin-top:8%;
   color: var(--white-four);
 }
- 
+#features{
+    width: 1300px;
+    height: 704px;
+    background-color: var(--white);
+  }
+}
 #links{
   width: 46px;
   height: 12px;
@@ -497,4 +506,69 @@ a{
   background-color: #a88d7b;
   margin-left:50%;
   margin-top:5%;
+}
+.blog {
+  width: 1300px;
+  height: 671px;
+  margin-top:0%;
+  background-color: #f9f9f9;
+}
+#heel {
+  width: 200px;
+  height: 24px;
+  font-family: 'SourceSansPro';
+  font-size: 36px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  margin-left:43%;
+  color: var(--black-three);
+}
+#women {
+  width: 339px;
+  height: 23px;
+  font-family: 'SourceSansPro';
+  font-size: 25px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.92;
+  letter-spacing: normal;
+  text-align:right;
+  margin-left:20%;
+  margin-top:2%;
+  color: var(--black-three);
+
+}
+#date{
+  width: 117px;
+  height: 14px;
+  font-family: 'SourceSansPro';
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: right;
+  margin-left:43%;
+  margin-bottom:110%;
+  color:#a8a8a8;
+}
+#outfit{
+  width: 200px;
+  height: 70px;
+  font-family: 'SourceSansPro';
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: right;
+  margin-left:43%;
+  margin-top:0%;
+  padding-top:2%;
+  color:#666666;
 }
