@@ -12,17 +12,20 @@
   --white-five: #ffffff;
   --white: #f5f5f5;
   }
-
+html,body{
+  margin:0;
+  padding:0;
+}
 body{
-  width: 1300px;
+  width: 100%;
   height: 1200px;
   font-family: 'Dosis', sans-serif;
   font-family:'Source Sans Pro',sans-serif;
 }
-.pre-header{width: 349px;
+.pre-header{width: 80%;
   height: 9px;
   font-family: 'SourceSansPro';
-  font-size: 12px;
+  font-size: 70%;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -39,10 +42,10 @@ body{
 }
 
 #lang{
-    width: 13px;
+    width: 10%;
     height: 9px;
     font-family: 'SourceSansPro';
-    font-size: 12px;
+    font-size: 70%;
     font-weight: 300;
     font-style: normal;
     font-stretch: normal;
@@ -57,7 +60,7 @@ body{
     box-sizing: border-box;
   }
   #contact{
-    width: 300px;
+    width: 20%;
     height: 15px;
     font-family: FontAwesome;
     font-size: 15px;
@@ -85,35 +88,24 @@ body{
     display: table;
     clear: both;
   }
-  
-  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
-    }
-  }
-  @media screen and (max-width:500px) {
-    .column {
-      width:100%;
-    }
-  }
+ 
 .fa {
-  font-size:24px;
+  font-size:70%;
 }
  
 
 
 .BG {
-  width: 1300px;
+  width: 100%;
   height: 93px;
   background-color: whitesmoke;
 }
 
 .navigation {
-  width: 40px;
+  width: 80%;
   height: 12px;
   font-family: 'Dosis';
-  font-size: 16px;
+  font-size: 70%;
   font-weight: 600;
   font-style: normal;
   font-stretch: normal;
@@ -126,16 +118,16 @@ body{
 }
 
 .top{
-  width: 1300px;
+  width: 100%;
   height: 53px;
   background-color: var(--white-three);
 }
 
 .home {
-  width: 36px;
+  width: 80%;
   height: 11px;
   font-family: 'Dosis';
-  font-size: 15px;
+  font-size: 90%;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -148,10 +140,10 @@ body{
 }
 
 .shop {
-  width: 34px;
+  width: 80%;
   height: 11px;
   font-family: 'Dosis';
-  font-size: 15px;
+  font-size: 90%;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -164,10 +156,10 @@ body{
 }
 
 .logo{
-  width: 117px;
+  width: 110%;
   height: 21px;
   font-family: 'Dosis';
-  font-size: 30px;
+  font-size: 120%;
   font-weight: 600;
   font-style: normal;
   font-stretch: normal;
@@ -182,10 +174,10 @@ body{
 
 
 .lookbook{
-  width: 77px;
+  width: 80%;
   height: 11px;
   font-family: 'Dosis';
-  font-size: 15px;
+  font-size: 90%;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -198,10 +190,10 @@ body{
 }
 
 #description {
-  width: 597px;
+  width: 50%;
   height: 38px;
   font-family: 'Dosis';
-  font-size: 50px;
+  font-size: 90%;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -213,10 +205,10 @@ body{
 }
 
 .intro {
-  width: 924px;
+  width: 105%;
   height: 39px;
   font-family: 'Dosis';
-  font-size: 20px;
+  font-size: 120%;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -224,27 +216,27 @@ body{
   letter-spacing: normal;
   text-align: center;
   color: #e6e6e6;
-  margin-left:20%;
-  margin-top:5%;
+  margin-left:40%;
+  margin-top:3%;
 
 }
 #button {
-  width: 150px;
+  width: 20%;
   height: 40px;
-  border-radius: 20px;
+  border-radius: 43%;
   background-color: #a88d7b;
   margin-left:90%;
   margin-top: 15%;
 }
 #title {
-  margin-top:0%;
+  
   margin-left:90%;
   display:inline;
+  font-size:300%;
 }
 
 #advert {
-  width: 313px;
-  height: 24px;
+  
   font-family: 'Dosis';
   font-size: 36px;
   font-weight: normal;
@@ -260,33 +252,33 @@ body{
 }
 
 .holder {
-  width: 1300px;
-  height: 800px;
+  width: 100%;
+  height: 80%;
   background-color: var(--black-three);
 
 }
 
 #boots {
-  width: 370px;
-  height: 360px;
+  width: 80%;
+  height:80%;
   background-color: #666666;
 }
 
 #leather {
-  width: 370px;
-  height: 360px;
+  width: 80%;
+  height: 80%;
   background-color: #666666;
 }
 #jean {
-  width: 370px;
-  height: 360px;
+  width: 80%;
+  height: 80%;
   background-color: #666666;
 }
 #describe {
-  width: 158px;
-  height: 18px;
+  width: 50%;
+  height: 5%;
   font-family: 'Dosis';
-  font-size: 20px;
+  font-size: 140%;
   font-weight: 600;
   font-style: normal;
   font-stretch: normal;
@@ -297,10 +289,10 @@ body{
 }
 
 #price {
-  width: 52px;
-  height: 11px;
+  width: 40%;
+  height: 5%;
   font-family: 'Dosis';
-  font-size: 15px;
+  font-size: 100%;
   font-weight: 600;
   font-style: normal;
   font-stretch: normal;
@@ -311,8 +303,8 @@ body{
 }
 
 .new {
-  width: 1900px;
-  height: 600px;
+  width: 100%;
+  height: 50%;
   background-color: var(--white-five);
   margin-top:0%;
   text-align: center;
@@ -320,17 +312,17 @@ body{
 
 
 #ad {
-  width: 313px;
-  height: 24px;
+  width: 200%;
+  height: 50%;
   font-family: 'Dosis';
-  font-size: 36px;
+  font-size: 200%;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
   line-height: 1.33;
   letter-spacing: normal;
   text-align: center;
-  margin-left: 15%;
+  margin-left: 25%;
   margin-right:53%;
  
   display: inline;
@@ -338,22 +330,24 @@ body{
 }
 
 #turtle {
-  width: 460px;
-  height: 450px;
+  width:  80%;
+  height: 80%;
   background-color: #666666;
+  margin-left:10%;
 
 }
 #top {
-  width: 460px;
-  height: 450px;
+  width: 80%;
+  height: 80%;
   background-color: #666666;
+  margin-left:60%;
 
 }
-#gender {
-  width: 49px;
-  height: 16px;
+#gender1 {
+  width:70%;
+  height: 20%;
   font-family:'Dosis';
-  font-size: 25px;
+  font-size: 200%;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -362,8 +356,23 @@ body{
   text-align: center;
   color: #a88d7b;
 }
+#gender2{
+  width:70%;
+  height: 20%;
+  font-family:'Dosis';
+  font-size: 200%;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.92;
+  letter-spacing: 2.5px;
+  text-align: center;
+  margin-left:50%;
+  color: #a88d7b;
+
+}
 #name {
-  width: 117px;
+  width: 200%;
   height: 21px;
   font-family: 'Dosis';
   font-size: 30px;
@@ -377,11 +386,11 @@ body{
   color: var(--white-four);
 }
 #features{
-    width: 1300px;
+    width: 100%;
     height: 704px;
     background-color: var(--white);
   }
-}
+
 #links{
   width: 46px;
   height: 12px;
@@ -437,7 +446,7 @@ body{
   color: #999999;
 }
 .last {
-  width: 1300px;
+  width: 100%;
   height: 85px;
   background-color: var(--white-two);
   margin-top:0%;
@@ -464,7 +473,7 @@ a{
   color: #666666;
 }
 .jacket{
-  width: 1300px;
+  width: 100%;
   height: 552px;
   opacity: 0.9;
   background-color: #282828;
@@ -473,7 +482,7 @@ a{
 }
 
  #denim {
-  width: 1300px;
+  width: 100%;
   height: 37px;
   font-family: 'Dosis';
   font-size: 48px;
@@ -517,7 +526,7 @@ a{
   margin-top:5%;
 }
 .blog {
-  width: 1300px;
+  width: 100%;
   height: 671px;
   margin-top:0%;
   background-color: #f9f9f9;
@@ -581,3 +590,15 @@ a{
   padding-top:2%;
   color:#666666;
 }
+
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+  @media screen and (max-width:500px) {
+    .column {
+      width:100%;
+    }
+  }
