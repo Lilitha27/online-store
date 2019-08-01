@@ -394,7 +394,7 @@ body{
   letter-spacing: normal;
   text-align: left;
   margin-top:10%;
-  color: var(--white-four);
+  color:white;
 }
 #store {
   width: 46px;
@@ -437,9 +437,17 @@ body{
   color: #999999;
 }
 .last {
+  width: 1300px;
+  height: 85px;
+  background-color: var(--white-two);
+  margin-top:0%;
+  padding-top:0%;
+
+}
+#right{
   width: 384px;
   height: 14px;
-  font-family: SourceSansPro;
+  font-family: 'SourceSansPro';
   font-size: 14px;
   font-weight: normal;
   font-style: normal;
@@ -447,10 +455,11 @@ body{
   line-height: 1.71;
   letter-spacing: normal;
   text-align: center;
-  margin-left:40%;
   color: #666666;
-}
+  margin-left:40%;
+  padding-top:2%;
 
+}
 a{
   color: #666666;
 }
