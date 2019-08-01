@@ -303,3 +303,14 @@ a{
   width:1300px;
   height:400px;
 }
+#button {
+  width: 50%;
+  height: 20%;
+  margin-top:20%;
+  background-color: var(--mushroom);
+}
+#add{
+  font-family: 'SourceSansPro';
+  color: var(--white-five);
+
+}
