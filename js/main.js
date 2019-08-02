@@ -22,5 +22,16 @@ function navBar() {
       moreText.style.display = "inline";
     }
   }
+// lookbook
+
+<script>
+function myFunction(images) {
+  var expandImg = document.getElementById("expandedImg");
+  var imgText = document.getElementById("imgtext");
+  expandImg.src = imgs.src;
+  imgText.innerHTML = imgs.alt;
+  expandImg.parentElement.style.display = "block";
+}
+</script>
 
  
