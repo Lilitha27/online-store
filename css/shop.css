@@ -231,7 +231,7 @@ a{
 }
 
 #name1{
-  width: 50%;
+  width:80%;
   height: 23px;
   font-family: 'SourceSansPro';
   font-size: 180%;
@@ -260,7 +260,7 @@ a{
 
 }
 #description{
-  width:50%;
+  width:80%;
   height: 64px;
   font-family: 'SourceSansPro';
   font-size: 90%;
@@ -442,4 +442,20 @@ a{
 }
 #details{
   color: #999999;
+}
+#heart{
+  width:40%;
+  height:18px;
+  font-family: 'Linearicons-Free';
+  font-size:20px;
+  font-weight: normal;
+  font-style:normal;
+  font-stretch: normal;
+  line-height:2.4;
+  letter-spacing:normal;
+  text-align:right;
+  display: inline-flex;
+  padding-left:120%;
+  margin-left:70%;
+  color:var(--brown-grey);
 }

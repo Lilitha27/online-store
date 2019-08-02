@@ -223,7 +223,6 @@ body{
 #button {
   width: 20%;
   height: 40px;
-  border-radius: 43%;
   background-color: #a88d7b;
   margin-left:90%;
   margin-top: 15%;
@@ -576,21 +575,24 @@ a{
   color:#a8a8a8;
 }
 #outfit{
-  width: 200px;
+  width: 500px;
   height: 70px;
   font-family: 'SourceSansPro';
   font-size: 15px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
+  line-height: 1.67;
   letter-spacing: normal;
   text-align: right;
-  margin-left:43%;
-  margin-top:0%;
-  padding-top:2%;
+  margin-left: 70px;
+  
+  
   color:#666666;
 }
-
+#out{
+  width:50%;
+}
   /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 600px) {
     .column {
