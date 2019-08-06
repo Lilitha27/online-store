@@ -605,4 +605,18 @@ a{
   }
 
   /* Gallery */
-  
+  @media screen and (max-width:960px){
+    body{
+        background-color: turquoise;
+    }
+}
+@media screen and (max-width:890px){
+    body{
+        background-color: pink;
+    }
+}
+@media screen and (max-width:670px){
+    body{
+        background-color: red;
+    }
+}
