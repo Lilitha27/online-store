@@ -7,6 +7,12 @@ function navBar() {
     }
   }
 
+ 
+ 
+ 
+ 
+ 
+ 
   function myFunction() {
     var dots = document.getElementById("dots");
     var moreText = document.getElementById("more");
@@ -14,14 +20,14 @@ function navBar() {
   
     if (dots.style.display === "none") {
       dots.style.display = "inline";
-      btnText.innerHTML = "View more"; 
+      btnText.innerHTML = "Read more"; 
       moreText.style.display = "none";
     } else {
       dots.style.display = "none";
-      btnText.innerHTML = "View less"; 
+      btnText.innerHTML = "Read less"; 
       moreText.style.display = "inline";
     }
-  }
+  }  
 // lookbook
 
 <script>

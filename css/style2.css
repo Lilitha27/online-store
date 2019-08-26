@@ -1,0 +1,150 @@
+:root {
+    --black: #2d2827;
+    --white-two: #d7d7d7;
+    --white-three: #eeeeee;
+    --greyish-brown: #555555;
+    --mushroom: #ac907f;
+    --pinkish-grey: #cccccc;
+    --greyish: #a8a8a8;
+    --white-four: #e5e5e5;
+    --black-two: #000000;
+    --black-three: #333333;
+    --white-five: #ffffff;
+    --white: #f5f5f5;
+    }
+
+
+/* Imports */
+
+
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap");
+
+/* Banner nav */
+.top-banner{
+    background-color: var(--black);
+    color: #999999;
+    font-family: 'Source Sans Pro';
+    font-size:12px;
+    line-height: 1.83;
+    letter-spacing:2.4px; 
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.top-banner>div >div >div:nth-child(2) {
+    text-align:center;
+}
+.top-banner > div > div > div:last-child{
+    text-align: right;
+}
+/* End Banner nav */
+
+/* main nav */
+.navbar-brand{
+    color:#999999;
+    background-color: var(--black);
+    font-size:30px;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+}
+
+.nav-align{
+    justify-content: flex-end;
+}
+
+.nav-align >div > a {
+    padding-left:25px !important;
+    color: #666666;
+}
+
+
+/* end main nav */ 
+
+
+/* hero */
+.jumpotron{
+    background-color: var(--black-three);
+    height: 370px;
+}
+
+
+/* end hero */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+// Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    /* selecting all elements */
+    .top-banner>div >div >div {
+        text-align:center !important;
+    }
+    .top-banner{
+        padding-top:20px;
+        padding-bottom:20px;
+    }
+}
+
+
+/* main nav */
+.navbar-brand{
+    background-color: #0e0902;
+    color:#eeee;
+    font-size:30px;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+}
+
+.nav-align{
+    justify-content: flex-end;
+}
+
+.nav-align >div > a {
+    padding-left:25px !important;
+    color: #eeee;
+}
+/* end  main nav */
+/* hero */
+.jumpotron{
+    background-color: #0e0902 !important;
+    padding-top:120px;
+    padding-bottom:120px;
+    color:#eeee;
+    border-radius:0;
+}
+
+
+/* end hero */
+
+.line{
+    width:50px;
+    height: 2px;
+    background-color: #ac907f;
+}
+.hide{
+    display:none;
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px)  { 
+    
+    }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px)  { 
+    }
+/* // Extra large devices (large desktops, 1200px and up) */
+ @media (min-width: 1200px) { 
+        }
