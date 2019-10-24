@@ -63,6 +63,8 @@ body {
   }
   #gallery{
       text-align:center;
+      color: black !important;
+      
   }
 
   #logo{
@@ -199,10 +201,10 @@ a{
   }
 
   #gallery{
-    padding-top:15%;
+    /* padding-top:15%; */
     text-align:center;
     font-size:650%;
-    color:white;
+    /* color:white; */
   
   }
   #navbar{

@@ -1,0 +1,61 @@
+.gallary{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10px;
+
+}
+
+/*
+=============================================================================
+small Devices 768px
+=============================================================================*/
+@media (min-width: 768){
+    .main-container{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-auto-rows: minmax(200px, auto);
+        grid-template-areas: 
+        "header"
+        "nav"
+        "featured"
+        "collection"
+        "call-to-action-2"
+        "blog"
+        "footer"
+        
+    }
+    .header{
+        grid-area: header;
+    }
+    .nav{
+        grid-area: nav;
+    }
+    .featured{
+        grid-area: featured;
+    }
+    .collection{
+        grid-area: collection;
+    }
+    .call-to-action-2{
+        grid-area: call-to-action-2;
+    }
+    .blog{
+        grid-area: blog;
+    }
+    .footer{
+        grid-area: footer;
+    }
+    }
+    
+    /*
+    =============================================================================
+    medium Devices 992px
+    =============================================================================*/
+    @media (min-width: 992){
+        
+    }
+    
+
+
+
