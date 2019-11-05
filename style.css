@@ -1,0 +1,246 @@
+/* head styling */
+body{
+    font-family: 'Overpass', sans-serif;
+}
+.head{
+    width: 100%;
+    height:51px ;
+    background: #2d2827;
+    color: #999999;
+    margin-bottom: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+.container{
+    background-image: url("../images/fash.jpg")!important;
+}
+a{
+    color: #f5f5f5;
+    text-decoration-line: none;
+}
+#name{
+    margin-bottom:25%;
+    font-size:250%;
+    color: #f5f5f5;
+}
+.nav-item{
+    padding-top: 30px;
+}
+.nav-item a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.nav{
+    width: 100%;
+    /* height: 570px; */
+    background: #000;
+    color: #ffffff;
+    /* background-image: url('../img/fash.jpg'); */
+    background-size: cover;
+    opacity: 0.7;
+    position: sticky !important;
+ 
+}
+.call-2-action{
+    margin-top: 150px;
+    height: 300px;
+}
+.ul>p{
+list-style: none;
+width: 66px;
+height: 11px;
+}
+.call-2-action-item{
+    width: 70%;
+    align-content: center;
+    text-align: center;
+   
+}
+.call-to-action-2-item{
+    width: 70%;
+    align-content: center;
+    text-align: center;
+    color: #ffffff;
+}
+.lookbook{
+    background-color: #a88d7b;
+    border-radius: 20px;
+    color: #ffffff;
+    width: 150px;
+    height: 40px;
+    margin-top: 30px;
+    border: none;
+
+}
+.view-more{
+   background:  #a88d7b;
+   color: #ffffff;
+    width: 150px;
+    height: 40px;
+    border: none;
+    margin-top: 30px;
+
+
+}
+.featured-img{
+width: 370px;
+height: 360px;
+background: #666666;
+border: 5px solid #f5f5f5;
+background-size: cover;
+color:#666666;
+}
+.featured{
+    
+    background-color: #f5f5f5;
+    align-items: center;
+    height: 705px;
+}
+.collection{
+    background: #ffffff;
+    height: 705px;
+}
+.img{
+    width: 570px;
+    height: 373px;
+    background: #666666;
+    border: 5px solid #ffffff;
+    background-size: cover;
+}
+.men, .women{
+    text-align: center;
+    color: #a88d7b;
+}
+.call-to-action-2{
+    height:552px;
+    background: #282828;
+    background-image: url('../images/second-call-to-action.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.blog{
+    height: 671px;
+    background: #f9f9f9;
+}
+.blog-item-item{
+    width: 585px;
+    height: 405px;
+    
+}
+.blog-img{
+    background-color: #666666;
+    background-image: url('../images/secondCTA.jpg');
+    background-size: contain;
+}
+.blog-content> .read-more{
+    color: #a88d7b;
+}
+.footer{
+    color: #2d2827;
+    height: 425px;
+}
+.footer-content{
+    height: 340px;
+    background: #2d2827;
+}
+.copyright{
+    height: 85px;
+    background: #d7d7d7;
+    align-items: center;
+
+
+}
+.copyright p{
+    text-align: center;
+    
+}
+.gallary-item{
+    height: 80px;
+    width: 80px;
+    background: #ffffff;
+    background-size: cover;
+}
+.footer-content-item a{
+    text-decoration: none;
+    color: #999999;
+}
+.footer-content-item h3>a{
+    color: #ffffff;
+}
+.intro{
+    background-image: url('../images/leather.jpg');
+    background-size: cover;
+
+}
+.shop-item-image{
+    background-size: cover;
+}
+.read-more a{
+    text-decoration: none;
+    color: #a88d7b;
+}
+.basket{
+    width: 20%;
+    min-height: 100%;
+    background: #f5f5f5;
+    position:absolute;
+    margin-left: 0%;
+    margin-top: 0%;
+    padding: 5px 5px 5px 30px;
+    display: none;
+    
+}
+.remove-button{
+    background: #a88d7b;
+    color: #fff;
+}
+.basket h4{
+    color: green;
+}
+
+@media (max-width: 768px){
+    .featured-img{
+        width: 100vw;
+    }
+}
+
+/* nav */
+
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #333;
+  color: white;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
